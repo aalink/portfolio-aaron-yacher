@@ -16,7 +16,7 @@
   <body>
     <header>
       <!-- navbar navbar-dark bg-dark -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#about-me">Aaron Yacher</a>
         <button
           class="navbar-toggler"
@@ -31,7 +31,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#about-me"
                 >About Me <span class="sr-only">(current)</span></a
               >
@@ -43,7 +43,7 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link">Resume</a>
             </li>
           </ul>
           <!-- <span class="navbar-text">
@@ -60,18 +60,21 @@
           src="/assets/images/aaron-yacher-portrait.PNG"
           alt="Aaron Yacher"
         />
-        <section id="about-me" class="container">
+        <section id="about-me" class="container text-center">
           <h2>About Me</h2>
           <div class="row">
             <div class="col">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-              in maxime saepe earum, perspiciatis cum! Accusantium odio
-              reprehenderit magni quibusdam quas consequatur possimus ut,
-              accusamus harum sapiente vero repellat alias?
+              <p>
+                I'm currently a student of the Georgia Tech Coding Boot Camp,
+                which you can learn more about at the following link:
+                <a href="https://bootcamp.pe.gatech.edu/coding/"
+                  >Georgia Tech Coding Boot Camp</a
+                >
+              </p>
             </div>
           </div>
         </section>
-        <section id="portfolio" class="container">
+        <section id="portfolio" class="container text-center">
           <h2>Portfolio</h2>
           <div class="row">
             <img
@@ -79,21 +82,26 @@
               src="/assets/images/be-semantic.png"
               alt="Assignment Thumbnail"
             />
+            <p class="container text-center">
+              Wildlife Census: This is my first group project.
+            </p>
           </div>
-          <div class="row">
-            <img
-              class="col-6"
-              src="/assets/images/be-semantic.png"
-              alt="Assignment Thumbnail"
-            />
-            <img
-              class="col-6"
-              src="/assets/images/be-semantic.png"
-              alt="Assignment Thumbnail"
-            />
+          <div class="container row">
+            <div>
+              <img
+                src="/assets/images/be-semantic.png"
+                alt="Assignment Thumbnail"
+              />
+            </div>
+            <div>
+              <img
+                src="/assets/images/be-semantic.png"
+                alt="Assignment Thumbnail"
+              />
+            </div>
           </div>
         </section>
-        <section id="contact" class="container">
+        <section id="contact" class="container text-center">
           <h2>Contact Me</h2>
           <div class="text-center">aaronyacher@gmail.com</div>
           <div class="text-center">770-355-1761</div>
