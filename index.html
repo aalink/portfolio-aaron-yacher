@@ -10,7 +10,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <title>Aaron Yacher - Portfolio</title>
   </head>
@@ -18,8 +21,7 @@
     <!-- ###################################################################################### -->
 
     <header>
-      <!-- navbar navbar-dark bg-dark -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <button
           class="navbar-toggler"
           type="button"
@@ -51,13 +53,25 @@
               <a href="https://github.com/aalink" target="_blank" class="nav-link">GitHub</a>
             </li> -->
             <li>
-              <a href="https://github.com/aalink"><i class="fa fa-github ml-3 mr-3" style="font-size:48px;color:white"></i></a>
+              <a target="_blank" href="https://github.com/aalink"
+                ><i
+                  class="fa fa-github ml-3 mr-3"
+                  style="font-size: 48px; color: white"
+                ></i
+              ></a>
             </li>
             <!-- <li class="nav-item">
               <a href="https://www.linkedin.com/in/aaron-yacher/" target="_blank" class="nav-link">LinkedIn</a>
             </li> -->
             <li>
-              <a href="https://www.linkedin.com/in/aaron-yacher/"><i class="fa fa-linkedin-square ml-3 mr-3" style="font-size:48px;color:white"></i></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/aaron-yacher/"
+                ><i
+                  class="fa fa-linkedin-square ml-3 mr-3"
+                  style="font-size: 48px; color: white"
+                ></i
+              ></a>
             </li>
           </ul>
           <!-- <span class="navbar-text">
@@ -73,7 +87,7 @@
         alt="Aaron Yacher"
       />
     </div>
-<!-- ###################################################################################### -->
+    <!-- ###################################################################################### -->
     <main class="margin-top-50">
       <section id="about-me" class="text-center">
         <h2 class="text-white bg-dark">About Me</h2>
@@ -82,74 +96,144 @@
             <p>
               I'm currently a student of the Georgia Tech Coding Boot Camp,
               which you can learn more about at the following link:
-              <a href="https://bootcamp.pe.gatech.edu/coding/"
+              <a target="_blank" href="https://bootcamp.pe.gatech.edu/coding/"
                 >Georgia Tech Coding Boot Camp</a
               >
+              I am also a Mac technician working for Apple. In addition to
+              nearly 10 years of experience troubleshooting hardware and
+              software, I have also been on interships with Apple's quality
+              assurance teams in the software engineering orgranization.
             </p>
           </div>
         </div>
       </section>
-<!-- ###################################################################################### -->
+      <!-- ###################################################################################### -->
       <section id="portfolio" class="text-center">
         <h2 class="text-white bg-dark">Portfolio</h2>
-        <div class="container-fluid col-8">
-          <a href="https://mdschenck.github.io/Wildlife-Census/">
+        <div class="container-fluid col-10 bg-secondary p-2 pt-5 mb-2">
+          <a
+            target="_blank"
+            href="https://mdschenck.github.io/Wildlife-Census/"
+          >
             <img
-              class="col border border-dark"
+              target="_blank"
+              class="col"
               src="assets/images/project01-wildlife-census.png"
               alt="Assignment Thumbnail"
             />
           </a>
-          <a href="https://mdschenck.github.io/Wildlife-Census/">
-            <h3 class="m-2">Wildlife Census</h3>
+          <a
+            target="_blank"
+            href="https://mdschenck.github.io/Wildlife-Census/"
+          >
+            <h3 class="m-2 text-white">Wildlife Census</h3>
           </a>
-          <p class="mb-5">
-            This group project is a census of endangered species. It uses APIs from Wikipedia, GBIF, and MapBox API. 
+          <a
+            target="_blank"
+            class="btn btn-primary m-1"
+            href="https://mdschenck.github.io/Wildlife-Census/"
+            >Web App</a
+          >
+          <a
+            target="_blank"
+            class="btn btn-primary m-1"
+            href="https://github.com/aalink/Wildlife-Census"
+            >Repository</a
+          >
+
+          <p class="mb-5 text-white">
+            This group project is a census of endangered species. The team was
+            comprised of 5 members, including myself. It uses APIs from
+            Wikipedia, GBIF, and MapBox API.
           </p>
         </div>
-        <div class="container col-8">
+        <div class="container col-10">
           <div class="row">
-            <div class="col-sm">
-              <a href="https://aalink.github.io/03-password-generator/"><img class="col p-0" src="assets/images/spinning-lock.gif" alt="Password Generator"/></a>
-              <a href="https://aalink.github.io/03-password-generator/">
-                <h3>Password Generator</h3>
+            <div class="col-sm bg-secondary p-3 m-3">
+              <a
+                target="_blank"
+                href="https://aalink.github.io/03-password-generator/"
+                ><img
+                  class="col p-0"
+                  src="assets/images/spinning-lock.gif"
+                  alt="Password Generator"
+              /></a>
+              <a
+                target="_blank"
+                href="https://aalink.github.io/03-password-generator/"
+              >
+                <h3 class="text-white">Password Generator</h3>
               </a>
-              <div><a href="https://aalink.github.io/03-password-generator/">Web App</a></div>
-              <div><a href="https://github.com/aalink/03-password-generator">Repository</a></div>
-              <p class="p-2">This web application generates a random password based on 5 criteria. It asks how many characters should be in the password, as well as whether or not the user would like to include upper case letters, lower case letters, numbers, and special characters.</p>
+              <a
+                target="_blank"
+                class="btn btn-primary m-1"
+                href="https://aalink.github.io/03-password-generator/"
+                >Web App</a
+              >
+              <a
+                target="_blank"
+                class="btn btn-primary m-1"
+                href="https://github.com/aalink/03-password-generator"
+                >Repository</a
+              >
+              <p class="p-2 text-white">
+                This web application generates a random password based on 5
+                criteria. It asks how many characters should be in the password,
+                as well as whether or not the user would like to include upper
+                case letters, lower case letters, numbers, and special
+                characters.
+              </p>
             </div>
-            <div class="col-sm">
-              <a href="https://aalink.github.io/06-weather-dashboard/"><img class="col p-0" src="assets/images/spinning-weather-icon.gif" alt="Weather Dashboard"/></a>
-              <a href="https://aalink.github.io/06-weather-dashboard/">
-                <h3>Weather Dashboard</h3>
+            <div class="col-sm bg-secondary p-3 m-3">
+              <a
+                target="_blank"
+                href="https://aalink.github.io/06-weather-dashboard/"
+                ><img
+                  class="col p-0"
+                  src="assets/images/spinning-weather-icon.gif"
+                  alt="Weather Dashboard"
+              /></a>
+              <a
+                target="_blank"
+                href="https://aalink.github.io/06-weather-dashboard/"
+              >
+                <h3 class="text-white">Weather Dashboard</h3>
               </a>
-              <div><a href="https://aalink.github.io/06-weather-dashboard/">Web App</a></div>
-              <div><a href="https://github.com/aalink/06-weather-dashboard">Repository</a></div>
-              <p class="p-2">Search for the current weather in the city of your choosing.  A five day forecast is also provided. It displays information like temperature, humidity, UV Index, and wind speed.</p>
+              <a
+                target="_blank"
+                class="btn btn-primary m-1"
+                href="https://aalink.github.io/06-weather-dashboard/"
+                >Web App</a
+              >
+              <a
+                target="_blank"
+                class="btn btn-primary m-1"
+                href="https://github.com/aalink/06-weather-dashboard"
+                >Repository</a
+              >
+              <p class="p-2 text-white">
+                Search for the current weather in the city of your choosing. A
+                five day forecast is also provided. It displays information like
+                temperature, humidity, UV Index, and wind speed.
+              </p>
             </div>
           </div>
         </div>
-
-
-
 
         <!-- <div class="container">
           <div class="row">
           </div>
         </div> -->
       </section>
-<!-- ###################################################################################### -->
+      <!-- ###################################################################################### -->
       <section id="contact" class="text-center">
         <h2 class="text-white bg-dark">Contact Me</h2>
-        <div class="m-4">aaronyacher@gmail.com</div>
-        <div class="m-4">770-355-1761</div>
+        <h4 class="m-4">aaronyacher@gmail.com</h4>
+        <h4 class="m-4">770-355-1761</h4>
       </section>
-<!-- ###################################################################################### -->
-
+      <!-- ###################################################################################### -->
     </main>
-    <footer>
-      © 2022 - Aaron Yacher
-    </footer>
+    <footer>© 2022 - Aaron Yacher</footer>
     <script src="/assets/js/script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
