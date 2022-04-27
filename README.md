@@ -30,3 +30,4 @@ In addition, it gave a new perspective on how to approach responsive layouts. Fo
 ```
 Conclusion
 ```
+When comparing this iteration of my website to the original design, the benefit of using a 3rd party library like Bootstrap was made clear. Although it took time to look through the documentation, using plain HTML and CSS would have taken more time to achieve the same result.
