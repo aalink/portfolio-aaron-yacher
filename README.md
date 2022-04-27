@@ -24,7 +24,9 @@ The biggest change in my approach for this update, which resulted in being the p
 ```
 What I Learned
 ```
+Since a good portion of my was spent on the Bootstrap website looking for ways to accomplish the layout I wanted, I believe this was a good exercise in learning how to use and search documentation.
 
+In addition, it gave a new perspective on how to approach responsive layouts. For example, when using Bootstrap, you don't have to invest time into to making your own media queries.  The container system, along with setting up rows and columns, makes responsive design easy to set up without having to leave the HTML file.
 ```
 Conclusion
 ```
