@@ -6,7 +6,7 @@ Repository Link: https://github.com/aalink/portfolio-aaron-yacher
 
 
 ```
-Then Next Step of an Evolution
+The Next Step of an Evolution
 ```
 This is the second iteration of my portfolio website. For the sake of comparison, the first version can be viewed at the following links:
 
@@ -15,7 +15,7 @@ Deployed Link: https://aalink.github.io/02-advanced-css-portfolio/
 Repository:  https://github.com/aalink/02-advanced-css-portfolio
 
 
-![Portfolio](assets/images/aaron-yacher-portrait.jpg)
+![Portfolio](assets/images/Screenshot-Aaron-Yacher-Portfolio.png)
 
 ```
 Challenges
