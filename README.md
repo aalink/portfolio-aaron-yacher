@@ -40,6 +40,10 @@ Repository:  https://github.com/aalink/02-advanced-css-portfolio
 ## Changes
 One new group project has been added along with four homework assignments.
 
+New project and homework pins have been added to the GitHub profile page.
+
+Updates have been made to the downloadable resume.
+
 ## Usage
 The link to the deployed link is near the top of this README.md file.
 
