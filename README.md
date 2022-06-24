@@ -1,14 +1,19 @@
 # The Portfolio of Aaron Yacher
 
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    
+  The MIT License
+
+  ## Description
+
+This is the third iteration of my portfolio website.
+
 Deployed Link: https://aalink.github.io/portfolio-aaron-yacher/
 
 Repository Link: https://github.com/aalink/portfolio-aaron-yacher
 
-
-```
-The Next Step of an Evolution
-```
-This is the second iteration of my portfolio website. For the sake of comparison, the first version can be viewed at the following links:
+For the sake of comparison, the first version can be viewed at the following links:
 
 Deployed Link: https://aalink.github.io/02-advanced-css-portfolio/
 
@@ -17,17 +22,32 @@ Repository:  https://github.com/aalink/02-advanced-css-portfolio
 
 ![Portfolio](assets/images/Screenshot-Aaron-Yacher-Portfolio.png)
 
-```
-Challenges
-```
-The biggest change in my approach for this update, which resulted in being the primary challenge, was the use of [Bootstrap](https://getbootstrap.com/).  In the first version of the portfolio project, we were expected to create our own CSS to do both styling and responsive design. Bootstrap made the creation of a responsive design easier in several ways. However, figuring out how to use the large number of classes that are available consumed a considerable amount of time compared to other aspects of the project.
-```
-What I Learned
-```
-Since a good portion of my was spent on the Bootstrap website looking for ways to accomplish the layout I wanted, I believe this was a good exercise in learning how to use and search documentation.
 
-In addition, it gave a new perspective on how to approach responsive layouts. For example, when using Bootstrap, you don't have to invest time into to making your own media queries.  The container system, along with setting up rows and columns, makes responsive design easy to set up without having to leave the HTML file.
-```
-Conclusion
-```
-When comparing this iteration of my website to the original design, the benefit of using a 3rd party library like Bootstrap was made clear. Although it took time to look through the documentation, using plain HTML and CSS would have taken more time to achieve the same result.
+
+
+
+
+
+  
+
+
+## Table of Contents
+
+- [Changes](#changes)
+- [Usage](#usage)
+- [Tests](#tests)
+
+## Changes
+One new group project has been added along with four homework assignments.
+
+## Usage
+The link to the deployed link is near the top of this README.md file.
+
+## Tests
+This application with be tested manually through user input.
+## Questions
+If you have any questions or need to reach me:
+
+GitHub: https://github.com/aalink
+
+Email: aaronyacher@gmail.com
